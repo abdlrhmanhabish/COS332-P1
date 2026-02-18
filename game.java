@@ -1,3 +1,5 @@
+//Abdelrahman Ahmed 24898008 && Hamdaan Mirza 24631494
+
 import java.util.Random;
 
 public class game {
@@ -28,12 +30,12 @@ public class game {
         System.out.println("<h1>Welcome to our Number Game!</h1>");
         System.out.println("<p>Select the larger number to win the game</p>");
         if(random.nextBoolean()){
-            System.out.println("<a href=\"right.htm\" class=\"button\">" + larger + "<button>");
-            System.out.println("<a href=\"wrong.htm\" class=\"button\">" + smaller + "<button>");
+            System.out.println("<a href=\"right.htm\" class=\"button\">" + larger + "</a>");
+            System.out.println("<a href=\"wrong.htm\" class=\"button\">" + smaller + "</a>");
         }
         else{
-            System.out.println("<a href=\"wrong.htm\" class=\"button\">" + smaller + "<button>");
-            System.out.println("<a href=\"right.htm\" class=\"button\">" + larger + "<button>");
+            System.out.println("<a href=\"wrong.htm\" class=\"button\">" + smaller + "</a>");
+            System.out.println("<a href=\"right.htm\" class=\"button\">" + larger + "</a>");
 
         }
         System.out.println("</body>");
