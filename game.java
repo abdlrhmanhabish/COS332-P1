@@ -33,7 +33,7 @@ public class game {
         }
         else{
             System.out.println("<a href=\"wrong.htm\" class=\"button\">" + smaller + "<button>");
-            System.out.println("<a href=\"wrong.htm\" class=\"button\">" + smaller + "<button>");
+            System.out.println("<a href=\"right.htm\" class=\"button\">" + larger + "<button>");
 
         }
         System.out.println("</body>");
