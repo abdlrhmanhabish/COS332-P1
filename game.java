@@ -97,12 +97,12 @@ public class game {
         System.out.println("<h1>Welcome to our Number Game!</h1>");
         System.out.println("<p>Select the larger number to win the game</p>");
         if(random.nextBoolean()){
-            System.out.println("<div class = \"choices\"> <a href=\"right.htm\" class=\"button\">" + larger + "</a>");
-            System.out.println("<a href=\"wrong.htm\" class=\"button\">" + smaller + "</a></div>");
+            System.out.println("<div class = \"choices\"> <a href=\"/right.htm\" class=\"button\">" + larger + "</a>");
+            System.out.println("<a href=\"/wrong.htm\" class=\"button\">" + smaller + "</a></div>");
         }
         else{
-            System.out.println("<div class = \"choices\"><a href=\"wrong.htm\" class=\"button\">" + smaller + "</a>");
-            System.out.println("<a href=\"right.htm\" class=\"button\">" + larger + "</a></div>");
+            System.out.println("<div class = \"choices\"><a href=\"/wrong.htm\" class=\"button\">" + smaller + "</a>");
+            System.out.println("<a href=\"/right.htm\" class=\"button\">" + larger + "</a></div>");
 
         }
         System.out.println("</div></body>");
