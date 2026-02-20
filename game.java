@@ -25,7 +25,7 @@ public class game {
         System.out.println("Content-type: text/html\n\n");
         System.out.println("<!DOCTYPE HTML>");
         System.out.println("<html lang=\"en\">");
-        System.out.println("<head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n" + "<meta name=\"author\" content=\"u24898008 && u24631494\"><meta http-equiv=\"Cache-Control\" content=\"no-cache, no-store, must-revalidate\">\r\n" + "<meta http-equiv=\"Pragma\" content=\"no-cache\">\r\n" + "<meta http-equiv=\"Expires\" content=\"0\"><title>Number Game</title>");
+        System.out.println("<head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><title>Number Game</title>");
         System.out.println("<style>\r\n" + //
                         "        * {\r\n" + //
                         "            margin: 0;\r\n" + //
